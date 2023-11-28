@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic PreUpVer Test</title>
+
+    <!-- getBible JS -->
+    <script src="../dist/js/preupver.js"></script>
+
+</head>
+<body>
+
+<h1>Updated version in Pre Include text</h1>
+
+<p>The version of the include text is updated automatically:</p>
+
+<pre id="getBible-include-details"class="preupver"
+     data-api-url="https://git.vdm.dev/api/v1/repos/getBible/loader/tags?page=1&limit=1"
+     data-description="Include the GetBible tooltips script from jsDelivr CDN"
+     data-url="https://cdn.jsdelivr.net/gh/getbible/loader@${version}/dist/js/getBible.min.js">
+    // will be updated via the library
+</pre>
+
+</body>
+</html>

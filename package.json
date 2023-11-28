@@ -1,0 +1,32 @@
+{
+  "name": "preupver",
+  "title": "PreUpVer",
+  "description": "PreUpVer is a versatile JavaScript library designed to automatically update the version numbers of library scripts in your documentation.",
+  "version": "1.0.0",
+  "main": "dist/js/preupver.min.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.vdm.dev/Llewellyn/PreUpVer.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://git.vdm.dev/Llewellyn/PreUpVer/issues"
+  },
+  "homepage": "https://git.vdm.dev/Llewellyn/PreUpVer",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@rollup/plugin-babel": "latest",
+    "@rollup/plugin-commonjs": "latest",
+    "@rollup/plugin-node-resolve": "latest",
+    "rollup": "latest",
+    "rollup-plugin-terser": "latest",
+    "rollup-plugin-license": "latest",
+    "@rollup/plugin-replace": "latest"
+  }
+}
